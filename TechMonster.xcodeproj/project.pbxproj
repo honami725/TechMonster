@@ -14,6 +14,7 @@
 		227492F71C6D7CB1006F0A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227492F51C6D7CB1006F0A29 /* LaunchScreen.storyboard */; };
 		227493021C6D7CB1006F0A29 /* TechMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227493011C6D7CB1006F0A29 /* TechMonsterTests.swift */; };
 		2274930D1C6D7CB1006F0A29 /* TechMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274930C1C6D7CB1006F0A29 /* TechMonsterUITests.swift */; };
+		2274931B1C6D7CE5006F0A29 /* TechMon_Resources in Resources */ = {isa = PBXBuildFile; fileRef = 2274931A1C6D7CE5006F0A29 /* TechMon_Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		227493081C6D7CB1006F0A29 /* TechMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274930C1C6D7CB1006F0A29 /* TechMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMonsterUITests.swift; sourceTree = "<group>"; };
 		2274930E1C6D7CB1006F0A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2274931A1C6D7CE5006F0A29 /* TechMon_Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TechMon_Resources; path = ../../TechMon_Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		227492EB1C6D7CB1006F0A29 /* TechMonster */ = {
 			isa = PBXGroup;
 			children = (
+				2274931A1C6D7CE5006F0A29 /* TechMon_Resources */,
 				227492EC1C6D7CB1006F0A29 /* AppDelegate.swift */,
 				227492EE1C6D7CB1006F0A29 /* ViewController.swift */,
 				227492F01C6D7CB1006F0A29 /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				227492F71C6D7CB1006F0A29 /* LaunchScreen.storyboard in Resources */,
+				2274931B1C6D7CE5006F0A29 /* TechMon_Resources in Resources */,
 				227492F41C6D7CB1006F0A29 /* Assets.xcassets in Resources */,
 				227492F21C6D7CB1006F0A29 /* Main.storyboard in Resources */,
 			);
@@ -401,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TechMonster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Honami.TechMonster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TechMonster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Honami.TechMonster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
